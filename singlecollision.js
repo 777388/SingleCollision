@@ -1009,7 +1009,7 @@ function createExportWrapper(name, fixedasm) {
 }
 
 var wasmBinaryFile;
-  wasmBinaryFile = 'singlecollision.wasm';
+  wasmBinaryFile = 'https://raw.githubusercontent.com/777388/SingleCollision/main/singlecollision.wasm';
   if (!isDataURI(wasmBinaryFile)) {
     wasmBinaryFile = locateFile(wasmBinaryFile);
   }
